@@ -1,106 +1,152 @@
 # 🌤️ Weatherly
 
-### Modern Real-Time Weather Application
+<p align="center">
+  <img src="https://img.shields.io/badge/Weatherly-Real--Time%20Weather%20App-4F8EF7?style=for-the-badge" alt="Weatherly">
+</p>
 
 <p align="center">
-  <b>Search any city and get beautiful, real-time weather information with dynamic weather visuals.</b>
+  A modern, responsive weather application built with React.js that provides real-time weather information with dynamic weather-based visuals.
 </p>
 
 <p align="center">
   <a href="https://weatherly-phi-one.vercel.app/">
-    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-Weatherly-blue?style=for-the-badge" alt="Live Demo">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20Weatherly-000000?style=for-the-badge" alt="Live Demo">
   </a>
+  &nbsp;
   <a href="https://github.com/adarshgosavi/Weatherly">
-    <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" alt="GitHub">
+    <img src="https://img.shields.io/badge/⭐%20GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub">
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React.js-18+-61DAFB?style=flat-square&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-4.x-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white">
-  <img src="https://img.shields.io/badge/Vite-Latest-646CFF?style=flat-square&logo=vite&logoColor=white">
-  <img src="https://img.shields.io/badge/Vercel-Deployed-black?style=flat-square&logo=vercel">
+  <img src="https://img.shields.io/badge/React.js-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/OpenWeather%20API-FF6B35?style=flat-square" alt="OpenWeather">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
 </p>
 
 ---
 
 ## 🌐 Live Demo
 
-### 🚀 [Visit Weatherly](https://weatherly-phi-one.vercel.app/)
+🚀 **Live Website:**
+
+### https://weatherly-phi-one.vercel.app/
+
+📂 **Source Code:**
+
+### https://github.com/adarshgosavi/Weatherly
 
 ---
 
-## 📖 About
+## 📸 Preview
 
-**Weatherly** is a modern, responsive weather application built with **React.js** that provides real-time weather information for cities around the world.
+> Add your application screenshots inside a `screenshots` folder and update the paths below.
 
-The application integrates the **OpenWeather API** to retrieve current weather data and transforms it into a clean, intuitive interface.
+<p align="center">
+  <img src="./screenshots/weatherly-dashboard.png" alt="Weatherly Dashboard" width="850">
+</p>
 
-Weatherly also provides **dynamic weather backgrounds** that adapt to the current weather condition and time of day, creating a more immersive user experience.
-
----
-
-## ✨ Key Features
-
-<table>
-<tr>
-<td width="50%">
-
-### 🔍 Smart Search
-
-Search for weather information by entering a city name with suggestion support.
-
-### 🌡️ Current Weather
-
-View the current temperature and weather condition in real time.
-
-### 💧 Humidity
-
-Get the current humidity percentage for the selected location.
-
-### 💨 Wind Information
-
-View wind speed and direction.
-
-</td>
-<td width="50%">
-
-### 👁️ Visibility
-
-Check the current atmospheric visibility.
-
-### 🌅 Sunrise & Sunset
-
-View accurate sunrise and sunset times.
-
-### 🌦️ Dynamic Weather UI
-
-Weather backgrounds and visuals change according to current conditions.
-
-### 📱 Responsive Design
-
-Optimized for desktop, laptop, tablet, and mobile devices.
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <i>Weatherly — Real-time weather dashboard</i>
+</p>
 
 ---
 
-## 🎨 Weather Experience
+## ✨ Features
 
-Weatherly dynamically adapts its interface according to the current weather.
+| Feature                    | Description                                            |
+| -------------------------- | ------------------------------------------------------ |
+| 🔍 **City Search**         | Search for weather information by city name            |
+| 💡 **Search Suggestions**  | Displays suggestions while searching for a location    |
+| 🌡️ **Temperature**        | Shows current temperature with unit conversion support |
+| ☁️ **Weather Condition**   | Displays the current weather condition                 |
+| 💧 **Humidity**            | Shows current humidity percentage                      |
+| 💨 **Wind Information**    | Displays wind speed and direction                      |
+| 👁️ **Visibility**         | Shows atmospheric visibility                           |
+| 🌅 **Sunrise**             | Displays local sunrise time                            |
+| 🌇 **Sunset**              | Displays local sunset time                             |
+| 🌦️ **Dynamic Background** | Background changes according to weather conditions     |
+| ☀️ **Day/Night Detection** | Weather visuals adapt to the time of day               |
+| 📱 **Responsive UI**       | Designed for desktop, tablet and mobile devices        |
+| ⚡ **Fast Development**     | Built using Vite for a fast development experience     |
+| ❌ **Error Handling**       | Handles invalid searches and API-related errors        |
 
-| Weather Condition | Experience                     |
-| ----------------- | ------------------------------ |
-| ☀️ Clear          | Bright and sunny environment   |
-| ☁️ Clouds         | Animated cloudy environment    |
-| 🌧️ Rain          | Dynamic rain visuals           |
-| ⛈️ Thunderstorm   | Lightning and storm visuals    |
-| ❄️ Snow           | Snowfall animation             |
-| 🌫️ Fog / Haze    | Atmospheric background         |
-| 🌙 Night          | Night-specific weather visuals |
+---
+
+## 🎨 Dynamic Weather Experience
+
+Weatherly changes its visual experience according to the current weather condition.
+
+```text
+                 Weather API
+                      │
+                      ▼
+              Weather Condition
+                      │
+          ┌───────────┼───────────┐
+          ▼           ▼           ▼
+        Clear       Clouds       Rain
+          │           │           │
+          ▼           ▼           ▼
+       ☀️ Visual    ☁️ Visual    🌧️ Visual
+          │           │           │
+          └───────────┼───────────┘
+                      ▼
+                Weatherly UI
+```
+
+Supported visual conditions include:
+
+* ☀️ Clear
+* 🌙 Clear Night
+* ☁️ Clouds
+* 🌧️ Rain
+* ⛈️ Thunderstorm
+* ❄️ Snow
+* 🌫️ Fog / Haze
+
+---
+
+## 🧠 How It Works
+
+```text
+User
+ │
+ │  Searches for a city
+ ▼
+Weatherly React App
+ │
+ │  API Request
+ ▼
+OpenWeather API
+ │
+ │  Weather Data
+ ▼
+React State
+ │
+ ├── Temperature
+ ├── Humidity
+ ├── Wind
+ ├── Visibility
+ ├── Sunrise / Sunset
+ └── Weather Condition
+          │
+          ▼
+   Dynamic UI & Background
+```
+
+### Application Flow
+
+1. User enters a city name.
+2. Weatherly processes the search request.
+3. The application sends a request to the OpenWeather API.
+4. Weather data is received from the API.
+5. React state is updated with the latest information.
+6. Weather details are displayed in the UI.
+7. The background and visual elements change according to the weather condition and time of day.
 
 ---
 
@@ -108,66 +154,70 @@ Weatherly dynamically adapts its interface according to the current weather.
 
 ### Frontend
 
-| Technology          | Purpose                       |
-| ------------------- | ----------------------------- |
-| ⚛️ **React.js**     | UI development                |
-| 🟨 **JavaScript**   | Application logic             |
-| 🎨 **Tailwind CSS** | Styling and responsive design |
-| ⚡ **Vite**          | Development and build tool    |
-| 🧱 **HTML5**        | Application structure         |
-| 🎨 **CSS3**         | Custom styling and animations |
+* **React.js** — Component-based UI development
+* **JavaScript (ES6+)** — Application logic
+* **HTML5** — Page structure
+* **CSS3** — Custom styling and animations
+* **Tailwind CSS** — Responsive UI styling
+* **Vite** — Development server and production build
 
-### API & Deployment
+### API
 
-| Technology              | Purpose                |
-| ----------------------- | ---------------------- |
-| 🌤️ **OpenWeather API** | Real-time weather data |
-| ▲ **Vercel**            | Production deployment  |
-| 🐙 **GitHub**           | Version control        |
+* **OpenWeather API** — Real-time weather data
+
+### Deployment & Version Control
+
+* **Vercel** — Deployment
+* **Git** — Version control
+* **GitHub** — Source code hosting
 
 ---
 
-## 🏗️ Project Architecture
+## ⚛️ React Concepts Used
 
-```text
-                         ┌─────────────────────┐
-                         │       Weatherly     │
-                         │      React App      │
-                         └──────────┬──────────┘
-                                    │
-                         ┌──────────▼──────────┐
-                         │     User Search     │
-                         │       / City        │
-                         └──────────┬──────────┘
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │   OpenWeather API   │
-                         └──────────┬──────────┘
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │   Weather Response  │
-                         └──────────┬──────────┘
-                                    │
-                  ┌─────────────────┼─────────────────┐
-                  ▼                 ▼                 ▼
-           ┌────────────┐    ┌────────────┐    ┌────────────┐
-           │ Temperature│    │   Details  │    │  Condition │
-           │            │    │ Humidity   │    │   Weather  │
-           │            │    │ Wind       │    │ Background │
-           └────────────┘    └────────────┘    └────────────┘
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │   Dynamic Weather   │
-                         │         UI          │
-                         └─────────────────────┘
+Weatherly was developed using several important React concepts:
+
+### Hooks
+
+```javascript
+useState()
+useEffect()
 ```
 
+### Component-Based Architecture
+
+The application separates reusable functionality into components such as:
+
+```text
+WeatherBackground
+Icons
+Helper
+```
+
+### State Management
+
+Application state is used for:
+
+* Weather data
+* City search
+* Search suggestions
+* Temperature unit
+* API errors
+* Day/night status
+
+### Conditional Rendering
+
+The UI dynamically responds to:
+
+* Weather conditions
+* Day/night state
+* API response
+* Search state
+* Error state
+
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
 Weatherly/
@@ -179,7 +229,7 @@ Weatherly/
     ├── src/
     │   │
     │   ├── assets/
-    │   │   └── weather animations
+    │   │   └── Weather animations & assets
     │   │
     │   ├── components/
     │   │   ├── Helper.jsx
@@ -200,29 +250,29 @@ Weatherly/
 
 ---
 
-## ⚙️ Getting Started
+## ⚙️ Installation
 
-Follow these steps to run Weatherly locally.
+Want to run Weatherly locally?
 
-### 1️⃣ Clone the Repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/adarshgosavi/Weatherly.git
 ```
 
-### 2️⃣ Navigate to the Project
+### 2. Navigate to the project
 
 ```bash
 cd Weatherly/Weathers-app
 ```
 
-### 3️⃣ Install Dependencies
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4️⃣ Configure Environment Variables
+### 4. Create environment variables
 
 Create a `.env` file in the project root:
 
@@ -230,22 +280,15 @@ Create a `.env` file in the project root:
 VITE_WEATHER_API_KEY=your_openweather_api_key
 ```
 
-> ⚠️ **Never commit your API key to GitHub.**
+Replace `your_openweather_api_key` with your actual OpenWeather API key.
 
-Make sure `.env` is included in `.gitignore`:
-
-```text
-.env
-.env.local
-```
-
-### 5️⃣ Start Development Server
+### 5. Start the development server
 
 ```bash
 npm run dev
 ```
 
-Open:
+The application will be available at:
 
 ```text
 http://localhost:5173
@@ -253,11 +296,32 @@ http://localhost:5173
 
 ---
 
-## 🔑 API Configuration
+## 🔐 Environment Variables
+
+Weatherly uses an environment variable for the OpenWeather API key.
+
+```env
+VITE_WEATHER_API_KEY=your_openweather_api_key
+```
+
+### Important
+
+**Never commit your API key to GitHub.**
+
+Make sure your `.gitignore` contains:
+
+```text
+.env
+.env.local
+```
+
+---
+
+## 📡 API Integration
 
 Weatherly uses the **OpenWeather API** to retrieve current weather information.
 
-The application uses API data to display:
+The application uses weather data to display:
 
 ```text
 Temperature
@@ -271,195 +335,157 @@ Sunset
 City Information
 ```
 
----
-
-## 🧠 React Concepts Used
-
-This project was also built to practice real-world React development concepts.
-
-### React Hooks
-
-```javascript
-useState()
-useEffect()
-```
-
-### State Management
-
-Weatherly manages application state for:
-
-* Weather data
-* City search
-* Search suggestions
-* Temperature unit
-* API errors
-* Day/night detection
-
-### Conditional Rendering
-
-The UI dynamically changes based on:
-
-```text
-Weather Condition
-Day / Night
-API Response
-Search State
-Error State
-```
+The received API response is processed and converted into user-friendly information before being displayed.
 
 ---
 
 ## 📱 Responsive Design
 
-Weatherly is designed to provide a consistent experience across different devices.
+Weatherly is designed to work across multiple screen sizes.
 
 ```text
-Desktop        ████████████████████
-Laptop         ████████████████████
-Tablet         ████████████████████
-Mobile         ████████████████████
+💻 Desktop
+     ↓
+💻 Laptop
+     ↓
+📱 Tablet
+     ↓
+📱 Mobile
 ```
+
+The interface adapts to different screen sizes while keeping the weather information easy to read and interact with.
 
 ---
 
 ## 🚀 Deployment
 
-The application is deployed on **Vercel**.
+Weatherly is deployed using **Vercel**.
 
-### Production
+### Production Website
 
-🔗 **https://weatherly-phi-one.vercel.app/**
+👉 **[Open Weatherly](https://weatherly-phi-one.vercel.app/)**
 
-Every production build can be deployed directly from the GitHub repository through Vercel.
-
----
-
-## 📸 Screenshots
-
-> Add screenshots of your application here to make the repository more visually attractive.
-
-### 🏠 Weather Dashboard
-
-```text
-Add your screenshot here
-```
-
-### 🌧️ Rain Weather
-
-```text
-Add your screenshot here
-```
-
-### 📱 Mobile View
-
-```text
-Add your mobile screenshot here
-```
-
-Once screenshots are added, use:
-
-```markdown
-![Weatherly Dashboard](./screenshots/dashboard.png)
-```
+The project can be connected to GitHub and deployed automatically through Vercel.
 
 ---
 
-## 🔮 Future Improvements
+## 🧪 Challenges & Solutions
 
-Weatherly can be extended with additional features:
+### 🌐 API Integration
 
-* [ ] 📅 5-day weather forecast
-* [ ] 📍 Current location weather
-* [ ] ⭐ Favorite cities
-* [ ] 🌡️ Celsius / Fahrenheit toggle
-* [ ] 🗺️ Interactive weather map
-* [ ] 📊 Weather charts
-* [ ] 🔔 Severe weather alerts
-* [ ] 🌍 Multi-language support
-* [ ] 🌓 Improved theme support
-* [ ] 📈 Historical weather data
+**Challenge:** Handling asynchronous weather API requests and displaying the returned data correctly.
+
+**Solution:** Used React state and `useEffect()` to manage API requests and update the interface.
+
+### 🌦️ Dynamic Backgrounds
+
+**Challenge:** Creating different visual experiences for different weather conditions.
+
+**Solution:** Created a dedicated `WeatherBackground` component that selects visuals based on weather condition and day/night status.
+
+### 🌡️ Data Formatting
+
+**Challenge:** Raw API data is not always suitable for direct display.
+
+**Solution:** Created helper functions for converting and formatting values such as temperature, humidity, visibility and wind direction.
+
+### 📱 Responsive Interface
+
+**Challenge:** Maintaining a clean interface across different screen sizes.
+
+**Solution:** Used responsive CSS/Tailwind utilities and flexible layouts.
+
+### 🚀 Production Deployment
+
+**Challenge:** Configuring the project correctly for production deployment.
+
+**Solution:** Configured the Vite project and deployed the application through Vercel.
 
 ---
 
-## 📚 Learning Outcomes
+## 📚 What I Learned
 
-Building Weatherly helped strengthen practical knowledge of:
+Building Weatherly helped me gain practical experience in:
 
-* ⚛️ React.js
-* 🟨 Modern JavaScript
-* 🔌 REST API integration
-* 🔄 Asynchronous programming
+* ⚛️ React.js development
+* 🧩 Reusable components
 * 🎣 React Hooks
+* 🔌 REST API integration
+* 🔄 Asynchronous JavaScript
 * 🧠 State management
 * 🎨 Tailwind CSS
-* 📱 Responsive design
-* 🌐 Environment variables
+* 📱 Responsive web design
+* 🔐 Environment variables
+* 🐛 Error handling
 * 🐙 Git & GitHub
 * 🚀 Vercel deployment
-* 🛠️ Debugging production builds
+* 🔧 Debugging production issues
 
 ---
 
-## 🧪 Challenges Solved
+## 🔮 Future Roadmap
 
-During development, several real-world frontend challenges were handled, including:
+The following features can be added in future versions:
 
-* API data fetching and error handling
-* Dynamic weather condition rendering
-* Day/night detection
-* Dynamic background selection
-* Temperature conversion
-* Weather data formatting
-* Responsive UI design
-* Production deployment
-* Vercel build configuration
+* [ ] 📅 5-Day Weather Forecast
+* [ ] 📍 Current Location Weather
+* [ ] ⭐ Favorite Cities
+* [ ] 🌡️ Celsius / Fahrenheit Toggle
+* [ ] 🗺️ Interactive Weather Map
+* [ ] 📊 Weather Charts & Graphs
+* [ ] 🔔 Weather Alerts
+* [ ] 🌍 Multi-Language Support
+* [ ] 🌓 Improved Light / Dark Theme
+* [ ] 📈 Historical Weather Data
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome.
+Contributions are welcome!
+
+If you have an idea or improvement:
 
 ### Fork the repository
 
 ```bash
-git fork https://github.com/adarshgosavi/Weatherly
+git clone https://github.com/adarshgosavi/Weatherly.git
 ```
 
-### Create a branch
+### Create a feature branch
 
 ```bash
-git checkout -b feature/new-feature
+git checkout -b feature/your-feature
 ```
 
-### Commit changes
+### Make your changes
 
 ```bash
 git add .
-git commit -m "Add new feature"
+git commit -m "Add: your feature"
 ```
 
-### Push changes
+### Push your branch
 
 ```bash
-git push origin feature/new-feature
+git push origin feature/your-feature
 ```
 
-Then open a **Pull Request**.
+Then create a Pull Request.
 
 ---
 
-## ⭐ Support
+## ⭐ Show Your Support
 
-If you found this project useful or interesting:
+If you like this project, consider:
 
-⭐ **Star the repository**
+⭐ **Giving the repository a star**
 
-🍴 **Fork the project**
+🍴 **Forking the repository**
 
-🐛 **Report issues**
+🐛 **Reporting bugs**
 
-💡 **Suggest improvements**
+💡 **Suggesting new features**
 
 ---
 
@@ -467,11 +493,11 @@ If you found this project useful or interesting:
 
 ### Adarsh Gosavi
 
-Frontend Developer | React.js Developer
+**Frontend Developer | React.js Developer**
 
 <p>
   <a href="https://github.com/adarshgosavi">
-    <img src="https://img.shields.io/badge/GitHub-Adarsh%20Gosavi-black?style=for-the-badge&logo=github">
+    <img src="https://img.shields.io/badge/GitHub-Adarsh%20Gosavi-181717?style=for-the-badge&logo=github" alt="GitHub">
   </a>
 </p>
 
@@ -479,16 +505,14 @@ Frontend Developer | React.js Developer
 
 ## 📄 License
 
-This project is developed for **educational and portfolio purposes**.
+This project is created for **educational and portfolio purposes**.
 
 ---
 
 <p align="center">
-
-### 🌤️ Weatherly
-
-**Real-time weather. Beautifully presented.**
-
-⭐ If you like Weatherly, consider giving it a star!
-
+  <b>🌤️ Weatherly</b>
+  <br>
+  Real-time weather information, beautifully presented.
+  <br><br>
+  ⭐ <b>Star the repository if you like it!</b>
 </p>
