@@ -29,10 +29,6 @@
 
 ### 🚀 [Visit Weatherly](https://weatherly-phi-one.vercel.app/)
 
-Experience the application live:
-
-**https://weatherly-phi-one.vercel.app/**
-
 ---
 
 ## 📖 About
